@@ -10,7 +10,6 @@ def createTable(db_name, table_name):
 
     mycursor.execute(f"CREATE TABLE {table_name} (name text, age integer)")
     print(f"Table named '{table_name}' was successfully created!")
-    mydb.commit()
 
     mydb.close()
 
